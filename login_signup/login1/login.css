@@ -42,6 +42,16 @@ body {
     margin: 15px 0;
     padding: 10px;
 }
+.container form .box.error {
+    border-left: 3px solid rgb(255, 47, 0);
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+.container form .box.error ion-icon {
+    color: rgb(255, 47, 0);
+    font-size: 1.8em;
+}
 .container form .box input {
     display: block;
     width: 100%;
@@ -74,4 +84,16 @@ body {
 }
 .container form .box.btn input:hover {
     box-shadow: none;
+}
+.container form .box.link p {
+    color: #666;
+}
+.container form .box.link p a {
+    text-decoration: none;
+    font-size: 1.23em;
+    color: #0099ff;
+    cursor: pointer;
+}
+.container form .box.link p a:hover {
+    text-decoration: underline;
 }

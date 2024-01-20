@@ -73,7 +73,8 @@ body {
     transition: .3s;
     background-color: var(--dark);
 }
-.home-header .container nav ul li a:hover::before {
+.home-header .container nav ul li a:hover::before,
+.home-header .container nav ul li a.active::before {
     width: 100%;
 }
 .home-header .container ion-icon {
